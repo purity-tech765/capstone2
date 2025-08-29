@@ -1,0 +1,169 @@
+/* ======================
+   GLOBAL STYLES
+====================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5; /* light pink background */
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #d63384; /* strong pink for headings */
+}
+
+p {
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ======================
+   HEADER SECTION
+====================== */
+header {
+  background-color: #ffb6c1; /* soft pink */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d63384;
+}
+
+/* ======================
+   HERO SECTION
+====================== */
+.hero {
+  background-color: #ffe4e9; /* very light pink */
+  padding: 80px 20px;
+}
+
+.hero img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #d63384;
+}
+
+/* ======================
+   SKILLS SECTION
+====================== */
+.skills {
+  background-color: #fff0f5;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill {
+  background: #ffb6c1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* ======================
+   PROJECTS SECTION
+====================== */
+.projects {
+  background-color: #ffe4e9;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ======================
+   CONTACT SECTION
+====================== */
+.contact {
+  background-color: #fff0f5;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.contact input, 
+.contact textarea {
+  padding: 10px;
+  border: 2px solid #ffb6c1;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: #d63384;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #ff4d94;
+}
+
+/* ======================
+   FOOTER SECTION
+====================== */
+footer {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
